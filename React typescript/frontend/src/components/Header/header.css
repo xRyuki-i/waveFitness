@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    padding: 1.4em 2rem;
+    background: #E8E9F3;
+    /* border-bottom: 1px solid black; */
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #AA6373;
+}

@@ -34,12 +34,17 @@ func (c *accountController) Record(ctx *gin.Context) model.Account {
 		fmt.Print("password not hashed")
 	}
 	// bin.DB.Create(&account)
-	view.NewAccount().Record(account)
+	bin.DB.Debug().Create(&account)
 	return account
 }
 
 func (c *accountController) Display() []model.Account {
 	accounts := []model.Account{}
-	bin.DB.Find(&accounts)
+	// bin.DB.Find(&accounts)
+	err := bin.DB.Preload("Instructor").Find(&accounts).Error
+	if err != nil {
+		panic("cannot retrieve user")
+	}
+
 	return accounts
 }

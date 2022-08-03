@@ -1,0 +1,62 @@
+.login__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.login__view{
+    padding: 2em 0em;
+    display: flex;
+    flex-direction: row;
+    margin-top: -1em;
+    width: 100%;
+}
+
+.login__image {
+    background-image:url("/public/fitness.jpg");
+    width: 1000px;
+    height: 500px;
+    background-position: center;
+    background-size: 1000px 500px;
+    background-color: red;
+    padding-left: 4em;
+}
+
+.login--title {
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    padding: 2em 12rem;
+    border-right: 1px solid #E8E9F3;
+    padding-right: 6em;
+}
+
+.login__text {
+    margin:.5em 0em;
+    padding: 0em 1em;
+    border-radius: 1.5em;
+    /* height: 2em; */
+    height: 2.7em;
+    background-color: #F5F5F5;
+    border: #F5F5F5;
+}
+
+.login__submit {
+    margin: 2em auto;
+    height: 3em;
+    width: 50%;
+    background-color: #822E81;
+    border: #822E81;
+    color: white;
+    border-radius: .6em;
+    font-weight: bold;
+}

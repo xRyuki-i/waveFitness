@@ -1,0 +1,63 @@
+.instructor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.instructor__form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6em auto;
+    
+}
+
+.form__title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.form__component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin:2em auto;
+    font-size: 1.2em;
+}
+
+.form__text, .form__btn {
+    width: 60%;
+    height: 2.5em;
+    margin-top: -.5em;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0em .3em;
+}
+
+.form__text:focus {
+    border:none;
+    border-bottom: 1px solid #822E81;
+}
+
+.form__btn {
+    width: 30%;
+    border: 1px solid #5B205A;
+    background: #5B205A;
+    color: white;
+}
+
+.featured {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding:10px;
+}
+
+.instructor__display {
+    margin: 6em auto;
+    width: 50%;
+}

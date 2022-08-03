@@ -1,0 +1,8 @@
+.navbar {
+    display: flex;
+    width: auto;
+    height: 5.2vh;
+    justify-content: space-between;
+    padding: 1.4em 2rem;
+    background: #E8E9F3;
+}
